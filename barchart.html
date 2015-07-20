@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar chart</title>
+    <link rel="stylesheet" type="text/css" href="includes/chart.css"/>
+    <!--[if lt IE 9]>
+     <link rel="stylesheet" type="text/css" href="includes/chart_ie.css"/>
+     <[endif]-->
+    <script type="text/javascript" src="includes/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript"src="js/main.js"></script>
+</head>
+<body>
+<h1>Here is an example of an animated Barchart</h1>
+<section>
+<p class="debug">
+    <span class="chartHeight">0</span><br/>
+    <span class="maxValue">0</span><br/>
+    <span class="valueMultiplier">0</span><br/>
+    <span class="highestYlabel">0</span><br/>
+    <span class="chartHeightArea">0</span><br/>
+    <span class="chartScale">0</span><br/>
+</p>
+
+<div class="chart-container">
+    <div class="chart-title">
+        <h2>Sales per Department &#151; Quarter 1</h2>
+        <p>Figures are in hundreds of US dollars.</p>
+    </div>
+    <div class="chart-content">
+        <div class="chart-y-axis">
+            <p style="top:0px;">1000</p>
+            <p style="bottom:0px;">0</p>
+        </div>
+        <div class="chart-area" bar-spacing="30">
+            <div bar-value="400" label="SurfBoards" class="chart-bar sporting"></div>
+            <div bar-value="200" label="Shoes" class="chart-bar hoursewares"></div>
+            <div bar-value="100" label="FireWood"   class="chart-bar shipping"></div>
+            <div bar-value="400" label="Clothing"   class="chart-bar clothing"></div>
+            <div bar-value="500" label="SunGlasses"    class="chart-bar jewelry"></div>
+        </div>
+        <div class="chart-x-axis"></div>
+    </div>
+</div></section>
+
+<a href="index.html"><input type="button" value="Home" class="navBtn"/></a>
+<link rel="stylesheet" href="css/barchart.css">
+</body>
+</html>

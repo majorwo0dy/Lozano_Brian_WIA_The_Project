@@ -1,0 +1,58 @@
+/*button***************************************/
+
+.navBtn{
+    background: #b9d1c8;
+    background-image: -webkit-linear-gradient(top, #b9d1c8, #6cc1c4);
+    background-image: -moz-linear-gradient(top, #b9d1c8, #6cc1c4);
+    background-image: -ms-linear-gradient(top, #b9d1c8, #6cc1c4);
+    background-image: -o-linear-gradient(top, #b9d1c8, #6cc1c4);
+    background-image: linear-gradient(to bottom, #b9d1c8, #6cc1c4);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.navBtn:hover {
+    background: #6bc2c1;
+    text-decoration: none;
+}
+/*text*****************************************/
+
+a{
+   float: right;
+    margin-right:60px ;
+    margin-bottom: 10px;
+}
+
+h1{
+
+    color: white;
+    background-color: #6bc2c1;
+    text-align: center;
+    margin-top: 50px;
+    padding:20px;
+
+
+}
+/*main content**********************************/
+section{
+    padding-left: 450px;
+
+}
+.chart-container{
+
+    background-color: white;
+
+}
+
+body{
+    background-image: url("../images/beach.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
